@@ -434,7 +434,7 @@ in
       owner = "FormerLurker";
       repo = "Octolapse";
       rev = "v${version}";
-      sha256 = "sha256-QP6PkKWKUv4uIaYdqTAsZmK7DVes94Q9K/DrBYrWxz0=";
+      sha256 = "sha256-OqkYeX4jbg1BRAci8iqzmPSSAHsztJGrfcocndvo8To=";
     };
 
     # Test fails due to code executed on import, see #136513
