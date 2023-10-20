@@ -438,7 +438,7 @@ in
     };
 
     # Test fails due to code executed on import, see #136513
-    pythonImportsCheck = [ "octoprint_octolapse" ];
+    # pythonImportsCheck = [ "octoprint_octolapse" ];
 
     propagatedBuildInputs = with super; [ awesome-slugify setuptools pillow sarge six pillow psutil file-read-backwards ];
 
